@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+body {
+  @apply bg-gradient-to-br from-blue-50 via-white to-blue-100 text-gray-800;
+  font-family: "Inter", sans-serif;
+}
