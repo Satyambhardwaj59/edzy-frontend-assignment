@@ -13,7 +13,7 @@ export const snacksData = [
 ];
 
 export const studentsData = [
-    { id: 1, name: "Satyam", referralCode: "STU123", totalSpent: 150 },
-    { id: 2, name: "Aman", referralCode: "STU124", totalSpent: 100 },
-    { id: 3, name: "Sonu", referralCode: "STU125", totalSpent: 180 },
+    { id: 1, name: "Satyam", referralCode: "EDZSTU123", totalSpent: 150 },
+    { id: 2, name: "Aman", referralCode: "EDZSTU124", totalSpent: 100 },
+    { id: 3, name: "Sonu", referralCode: "EDZSTU125", totalSpent: 180 },
 ];

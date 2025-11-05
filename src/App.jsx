@@ -4,15 +4,13 @@ import SnacksPage from "./pages/SnacksPage";
 import StudentsPage from "./pages/StudentsPage";
 import CreateStudentPage from "./pages/CreateStudentPage";
 import StudentDetailPage from "./pages/StudentDetailPage";
-import Navbar from "./components/Navbar";
 import CreateSnackPage from "./pages/CreateSnackPage";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
     <BrowserRouter>
-
       <Navbar />
-
       <Routes>
         <Route path="/" element={<SnacksPage />} />
         <Route path="/students" element={<StudentsPage />} />
