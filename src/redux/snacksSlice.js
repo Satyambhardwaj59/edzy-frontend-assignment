@@ -5,6 +5,12 @@ const snacksSlice = createSlice({
   name: "snacks",
   initialState: snacksData,
   reducers: {
+    // Add new snack to the list
+    addSnack: (state, action) => {
+      state.push(action.payload);
+    },
+
+    // Increment order count when snack ordered
     incrementOrdersCount: (state, action) => {
       const snack = state.find((s) => s.id === action.payload);
       if (snack) snack.ordersCount += 1;
@@ -12,5 +18,5 @@ const snacksSlice = createSlice({
   },
 });
 
-export const { incrementOrdersCount } = snacksSlice.actions;
+export const { addSnack, incrementOrdersCount } = snacksSlice.actions;
 export default snacksSlice.reducer;

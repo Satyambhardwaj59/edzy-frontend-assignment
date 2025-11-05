@@ -13,7 +13,7 @@ export default function CreateStudentPage() {
     const newStudent = {
       id: Date.now(),
       name: data.name,
-      referralCode: "STU" + Math.floor(1000 + Math.random() * 9000),
+      referralCode: "EDZSTU" + Math.floor(1000 + Math.random() * 9000),
       totalSpent: 0,
     };
     dispatch(addStudent(newStudent));
@@ -49,7 +49,7 @@ export default function CreateStudentPage() {
             className="btn bg-indigo-600 hover:bg-indigo-700 text-white font-semibold tracking-wide transition-all duration-200 shadow-md"
             type="submit"
           >
-            ➕ Add Student
+             Add Student
           </button>
         </form>
       </div>

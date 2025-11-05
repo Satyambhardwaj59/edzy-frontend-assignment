@@ -5,6 +5,7 @@ import StudentsPage from "./pages/StudentsPage";
 import CreateStudentPage from "./pages/CreateStudentPage";
 import StudentDetailPage from "./pages/StudentDetailPage";
 import Navbar from "./components/Navbar";
+import CreateSnackPage from "./pages/CreateSnackPage";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/" element={<SnacksPage />} />
         <Route path="/students" element={<StudentsPage />} />
         <Route path="/create-student" element={<CreateStudentPage />} />
+        <Route path="/create-snack" element={<CreateSnackPage />} />
         <Route path="/students/:id" element={<StudentDetailPage />} />
       </Routes>
     </BrowserRouter>
